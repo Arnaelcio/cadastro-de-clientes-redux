@@ -1,0 +1,104 @@
+.background-customers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../images/background_Home_dark.jpg");
+  width: 100%;
+  height: 100vh; 
+}
+.customers {
+  background-color: whitesmoke;
+  width: 30%;
+  height: 30vh;
+  /* margin-top: auto; */
+  margin-bottom: 1%;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  /* border:2px solid black; */
+  box-shadow: 1px 6px 24px 6px whitesmoke;
+  /* box-shadow: 1px 6px 24px 6px dodgerblue; */
+}
+fieldset {
+  display: flex;
+  flex-direction: column;
+
+  align-self: center;
+  width: 90%;
+  height: 85%;
+  border: 1px solid lightgrey;
+}
+legend {
+  text-align: left;
+  font-weight: 800;
+  /* align-self: flex-end; */
+}
+p {
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid lightgrey;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  text-align: justify;
+  height: 10%;
+  width: 100%;
+  outline: none;
+}
+.datas-to-login {
+  margin-top: 2%;
+}
+p:focus {
+  box-shadow: 1px 6px 24px 6px gray;
+}
+.no-data {
+margin-left: auto;
+margin-right: auto;
+margin-bottom: auto;
+margin-top: auto;
+}
+.to-register-customers {
+  align-self: flex-end;
+  margin-right: 7%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  color: whitesmoke;
+  letter-spacing: 7px;
+  font-weight: bold;
+  font-size: medium;
+  height: 7%;
+  width: 15%;
+  border-radius: 6px;
+  text-decoration: none;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+a:hover {
+  box-shadow: 1px 6px 24px 6px gray;
+  color: aqua;
+}
+a.to-custumer-base {
+  border: none;
+}
+.container-customers {
+    display: flex;
+    width: 85%;
+    height: 87%;
+    /* flex-direction: row; */
+    gap: 5%;
+    flex-wrap: wrap;
+    flex-flow: wrap;
+    /* margin-top: -2%; */
+    /* margin-bottom: auto; */
+}
+button.toRemove_button {
+  letter-spacing: normal;
+  margin-top: 1%;
+  background-color: tomato;
+  align-self: flex-end;
+  font-weight: bolder;
+  font-size: small;
+  width: 30%;
+  height: 15%;
+}
